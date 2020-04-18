@@ -6,4 +6,5 @@ for i in range(len(s) - 1, -1, -1):
     s.append(s.pop(i))
 
 print(*s)
+print(*s)
 # check
