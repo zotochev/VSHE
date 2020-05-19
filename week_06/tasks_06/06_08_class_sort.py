@@ -1,4 +1,4 @@
-fin = open('input.txt', 'r', encoding='utf8')
+fin = open('06_08_input.txt', 'r', encoding='utf8')
 a = 'a'
 mark_list = []
 

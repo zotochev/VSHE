@@ -6,8 +6,10 @@ fin = open('text.txt', 'r', encoding='utf8')
 # lines = fin.readlines()
 # print([lines[0].strip(), lines[1].strip()])
 
-# for line in fin:
-#     print(int(line) + 1)
+
+# чтение из файла по одной строке
+for line in fin:
+    print(int(line) + 1)
 
 # s = fin.read()
 # print([s])
