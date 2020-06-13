@@ -14,7 +14,6 @@ for lang in fin:
     if lang.isdigit():
         boy = count
         count += 1
-        # boy = int(lang)
     else:
         poly_list[boy].add(lang)
 print(poly_list)
@@ -23,10 +22,8 @@ print(poly_list)
 for num in range(len(poly_list)):
     if num == 0:
         result_all = poly_list[num]
-        # print(result_all)
     else:
         result_all &= poly_list[num]
-        # print(result_all)
 print(len(result_all), *result_all, sep='\n')
 
 print(poly_list)
