@@ -1,5 +1,5 @@
-file = 'input.txt'
-# file = '07_11_input.txt'
+# file = 'input.txt'
+file = '07_11_input.txt'
 
 fin = open(file, 'r', encoding='utf8')
 
@@ -11,9 +11,6 @@ for num in range(7, data[0] + 1, 7):
     temp = int(num)
     weekend.add(temp - 1)
     weekend.add(temp)
-
-if len(weekend) != 0 and data[0] - max(weekend) == 6:
-    weekend.add(data[0])
 
 for party in fin:
     party = list(map(int, party.split()))
